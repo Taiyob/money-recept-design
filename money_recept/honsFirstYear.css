@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.receipt {
+  /* max-width: 400px; */
+  margin: 0 auto;
+  background-color: #4caf50;
+  color: #080000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.receipt-header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.college-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.college-address {
+  text-align: center;
+}
+
+.college-address span {
+  margin-right: 25px;
+  font-weight: 700;
+}
+
+.college-address a {
+  margin-right: 20px;
+  color: black;
+}
+
+.form-no {
+  display: flex;
+  justify-content: center;
+}
+
+.form-no h6 {
+  margin-right: 30px;
+}
+
+.receipt-body {
+  margin-bottom: 20px;
+}
+
+.receipt-footer {
+  text-align: right;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.body-header {
+  text-align: center;
+}
+
+.total {
+  font-weight: bold;
+}
+
+input {
+  width: 60px;
+  text-align: right;
+}
+
+.bottom-dotted-border-input {
+  border-bottom: 1px dashed #000;
+  background-color: #4caf50;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
