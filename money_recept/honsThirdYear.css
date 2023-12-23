@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+.receipt {
+  /* max-width: 400px; */
+  margin: 0 auto;
+  background-color: #36a678;
+  color: #080000;
+  padding: 20px;
+  border-radius: 10px;
+}
+.receipt-header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 40%;
+  margin: 0 auto;
+  flex-direction: row;
+}
+.link {
+  margin-top: 10px;
+}
+.college-address {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.form-no {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+}
+.admit-no {
+  flex-basis: 60%;
+}
+.serial-no {
+  flex-basis: 40%;
+}
+.college-address span {
+  margin-right: 25px;
+  font-weight: 700;
+}
+.college-address a {
+  margin-right: 20px;
+  color: black;
+}
+.receipt-body {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.receipt-footer {
+  text-align: right;
+}
+.bottom-dotted-border-input {
+  width: 70%;
+}
+.item1 {
+  width: 80%;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-2 {
+  text-align: center;
+  display: flex;
+}
+.item {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.body-header {
+  text-align: center;
+}
+.item-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.bottom-dotted-border-input {
+  border-bottom: 1px dashed #000;
+  background-color: #36a678;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
