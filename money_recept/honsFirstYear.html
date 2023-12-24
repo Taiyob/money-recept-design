@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Money Receipt</title>
     <link rel="stylesheet" href="honsFirstYear.css">
+    <link rel="stylesheet" href="print.css" media="print">
   </head>
   <body>
     <div class="receipt">
@@ -57,5 +58,14 @@
             </div>
           </div>
         </form>
+
+        <button onclick="printReceipt()">Print Receipt</button>
+        <script>
+          function printReceipt() {
+            document.querySelector('button').style.display = 'none';
+            window.print();
+            document.querySelector('button').style.display = 'block';
+          }
+        </script>
   </body>
 </html>
